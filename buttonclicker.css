@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+   background-color: red;
+  
+    color: white;
+    
+}
+.header{
+    background-color: blue;
+    width: 1494px;
+    height:  100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 7%;
+    flex-direction: row;
+}
+#search{
+    width: 375px;
+    height: 40px;
+    border: 3px black solid;
+    margin-top: 34px;
+    margin-left: 62px;
+}
+.logout{
+    background-color: blue;
+    color: white;
+    width: 125px;
+    height: 40px;
+    box-shadow: 4px 4px 4px 4px black;
+    border: 5px black solid;
+    border-width: 3px;
+    margin-top: 34px;
+    margin-right: 63px;
+}
+.dojo{
+    margin-top: 34px;
+
+
+}
+
+.mid-section{
+    display:flex;
+}
+
+.left-side{
+ width: 50%;
+ margin: 1%;
+}
+.con-1{
+background-color: chocolate;
+    margin-bottom: 4%;
+    height:357px;
+    margin-left: 13%;
+    margin-top: 10%;
+
+}
+.con-2{
+background-color: chartreuse;
+    margin-left: 13%;
+    height:400px;
+
+}
+
+.right-side{
+    margin: 1%;
+}
+
+.con-3{
+background-color: burlywood;
+    width: 425px;
+    height: 280px;
+    margin-top: 19%;
+
+
+}
